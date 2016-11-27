@@ -14,6 +14,6 @@ dpkg -s npm &>/dev/null || {
 
 command -v hubot &>/dev/null || {
     # Test if hubot command exists con shell, if not then install it from npm
-    npm install -g yo generator-hubot
+    npm install -g yo generator-hubot coffee-script
     #npm install -g hubot coffee-script
 }
